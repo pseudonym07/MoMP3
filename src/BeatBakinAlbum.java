@@ -1,0 +1,2 @@
+public class BeatBakinAlbum {
+}
