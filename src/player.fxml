@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?import javafx.scene.layout.*?>
+
 <?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
 
 
-<VBox alignment="CENTER" spacing="10" xmlns:fx="http://javafx.com/fxml">
-    <Button text="Play" onAction="#playAction" fx:id="playButton"/>
-    <Slider min="0" max="1" fx:id="volumeSlider"/>
+<VBox alignment="CENTER" spacing="10" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17.0.2"
+      fx:controller="PlayerController">
+    <Button fx:id="playButton" onAction="#playAction" text="Play"/>
+    <Button text="Stop" onAction="#stopAction" fx:id="stopButton"/>
     <ListView fx:id="playlist"/>
+
 </VBox>

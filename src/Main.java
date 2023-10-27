@@ -8,7 +8,6 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("player.fxml"));
-        loader.setController(new PlayerController()); // Set the controller
         Parent root = loader.load();
         Scene scene = new Scene(root, 800, 720);
         primaryStage.setTitle("MoMP3");
