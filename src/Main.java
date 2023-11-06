@@ -10,6 +10,7 @@ public class Main extends Application {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("player.fxml"));
         Parent root = loader.load();
         Scene scene = new Scene(root, 800, 720);
+        scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
         primaryStage.setTitle("MoMP3");
         primaryStage.setScene(scene);
         primaryStage.show();

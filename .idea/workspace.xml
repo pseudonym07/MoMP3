@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4f45d45-0345-4636-ae02-ad01ee5beada" name="Changes" comment="when audio player class is ran, it works, but now were trying to make UI work with the sound API. I have absolutley no clue what i'm doing but we are making progress to meet this for the quarterly project. &#10;&#10;Warnings:&#10;&#10;C:\Users\Administrator\IdeaProjects\MoMP3\src\AudioPlayer.java&#10;Warning:(6, 1) Unused import statement&#10;Warning:(22, 20) Private field 'playButton' is never used&#10;Warning:(24, 20) Private field 'volumeSlider' is never used&#10;Warning:(26, 30) Private field 'playlist' is never used&#10;Warning:(35, 81) Argument 'AudioPlayer.class.getResourceAsStream(&quot;30, 'ore.wav&quot;)' might be null&#10;Warning:(46, 15) Call to 'printStackTrace()' should probably be replaced with more robust logging&#10;C:\Users\Administrator\IdeaProjects\MoMP3\src\player.fxml&#10;Error:(7, 34) No controller is specified for the top-level element&#10;Warning:(8, 13) Attribute is redundant because it contains default value&#10;C:\Users\Administrator\IdeaProjects\MoMP3\src\PlayerController.java&#10;Warning:(10, 20) Private field 'playButton' is never used&#10;Warning:(12, 20) Private field 'volumeSlider' is never used&#10;Warning:(14, 30) Private field 'playlist' is never used&#10;Warning:(18, 17) Method 'playAction()' is never used&#10;Warning:(32, 15) Call to 'printStackTrace()' should probably be replaced with more robust logging">
+      <change afterPath="$PROJECT_DIR$/src/application.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/mini-wakuwaku.otf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/30, 'ore.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AudioPlayer.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PlayerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PlayerController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/player.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/player.fxml" afterDir="false" />
@@ -69,6 +69,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\IdeaProjects\MoMP3\src\fonts" />
       <recent name="C:\Users\Administrator\IdeaProjects\MoMP3\src" />
     </key>
   </component>

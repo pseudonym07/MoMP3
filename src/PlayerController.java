@@ -7,7 +7,7 @@ import javafx.concurrent.Task;
 import javax.sound.sampled.*;
 import java.io.IOException;
 import java.net.URL;
-import java.util.ResourceBundle;
+
 import javafx.collections.ObservableList;
 
 
@@ -80,6 +80,8 @@ public class PlayerController {
 
         // Add your preset songs to the playlistItems
         playlistItems.add("30, 'ore");
+        playlistItems.add("Saturday - Saturday");
+        playlistItems.add("7_22PM");
         // Add more preset songs here
     }
 
@@ -88,3 +90,9 @@ public class PlayerController {
 
 
 }
+
+
+
+
+
+// Did not have enough time to improve song selection.
